@@ -10,9 +10,6 @@ using namespace Eigen;
 LinearModel::LinearModel(VectorXd w, double b):
 weights(w), biases(b)
 {
-   // cout << "weights size cons "<< weights.size() << endl;;
-   // weights = w;
-    //biases = b;
 }
 
 LinearModel LinearModel::random_init(int num_inputs, float std)
