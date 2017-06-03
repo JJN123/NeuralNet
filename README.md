@@ -21,6 +21,6 @@ After 1000 epochs, the following predictions were made (prior to hard-thresholdi
 [      0,       1,  -0.474]
 [      1,       0, -0.5486]
 
-Here the first two columns are input data, and the third column is the output of the neural net prior to hard-threshold. This means that ngative values correpsond to a prediction of a 1, and negative a 0. We see correct predictions made in the case of "Anding" the first two columns after 1000 epochs, but not only after 100.
+Here the first two columns are input data, and the third column is the output of the neural net prior to hard-threshold. This means that positive values correpsond to a prediction of a 1, and negative a 0. We see correct predictions made in the case of "Anding" the first two columns after 1000 epochs, but not only after 100.
 
 This project was undertaken mainly to start to learn C++. The strcutre of the code is adapted from python starter code provided in CSC321 at U of T, by Roger Grosse.
